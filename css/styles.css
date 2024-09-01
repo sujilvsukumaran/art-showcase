@@ -1,0 +1,91 @@
+/* Add this to css/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#gallery img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.collection img, .product-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.collection {
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
